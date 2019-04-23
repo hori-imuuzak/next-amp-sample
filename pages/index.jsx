@@ -10,7 +10,7 @@ const Component = () => {
   return (
     <>
       <div>This is {isAmp ? 'amp ' : ' '}homepage</div>
-      <Image src={imagePath} />
+      <Image src={imagePath} width={320} height={220} />
     </>
   )
 }
